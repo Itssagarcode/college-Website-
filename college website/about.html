@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/baa70d825c.js" crossorigin="anonymous"></script>
+    <title>college-website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+   <h1>ABOUT US</h1>
+    </section>
+
+
+
+    <!-- ------------------about us content--------------------- -->
+
+    <section class="about-us">
+   <div class="row">
+    <div class="about-col">
+        <h1>WE are the world's Largest University</h1>
+        <p>Lorem ipsum dolor sit,  Lorem ipsum dolor Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores cumque ratione commodi optio quas quis iure esse tempore eum! Ea quos reiciendis explicabo perspiciatis?sit amet consectetur adipisicing elit. Magnam voluptatem sapiente debitis, est voluptate officiis quas quidem incidunt pariatur nesciunt vero expedita, dolore eligendi reiciendis?amet consectetur adipisicing elit. Doloremque quo dolores quasi reprehenderit eius voluptates esse vero asperiores. Asperiores tempora adipisci consectetur, autem maiores non.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="images/about.jpg">
+    </div>
+   </div>
+    </section>
+  
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ratione perferendis<br> numquam, quisquam neque minus accusantium porro cum!</p>
+   
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+    
+        
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by SAGAR</p>
+    </section>
+
+
+    <!-- /////////////////////////// -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
